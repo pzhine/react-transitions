@@ -1,0 +1,15 @@
+{
+  "name": "animation-lesson",
+  "version": "1.0.0",
+  "description": "To start the app, use the command line: \"node server\" from the project folder and then go on a browser to http://localhost:3000/.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
