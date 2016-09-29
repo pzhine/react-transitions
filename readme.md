@@ -1,7 +1,5 @@
 ## Getting started
 `npm install`
 
-To start the app:
+To compile the app and watch for changes:
 `npm start`
-
-Browse to http://localhost:3000/

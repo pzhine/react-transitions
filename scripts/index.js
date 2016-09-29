@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 var TodoList = React.createClass({
   getInitialState: function() {
     return {items: ['call mom', 'swim', 'eat lunch', 'smile']};
@@ -24,5 +27,5 @@ var TodoList = React.createClass({
 });
 ReactDOM.render(
   <TodoList />,
-  document.getElementById('content')
+  document.getElementById('root')
 );

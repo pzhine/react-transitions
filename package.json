@@ -1,15 +1,22 @@
 {
-  "name": "animation-lesson",
+  "name": "pokedex",
   "version": "1.0.0",
-  "description": "To start the app, use the command line: \"node server\" from the project folder and then go on a browser to http://localhost:3000/.",
-  "main": "server.js",
+  "description": "",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "webpack": "^1.13.2"
   }
 }
