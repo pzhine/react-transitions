@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 var TodoList = React.createClass({
   getInitialState: function() {
@@ -19,7 +20,9 @@ var TodoList = React.createClass({
       <div>
         <button onClick={this.handleAdd}>Add Item</button>
         <ul>
-          {items}
+          <ReactCSSTransitionGroup transitionName="todoItem">
+            {items}
+          </ReactCSSTransitionGroup>
         </ul>
       </div>
     );
